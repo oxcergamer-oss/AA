@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff1f4"/><stop offset="1" stop-color="#ffe5eb"/></linearGradient>
+    <linearGradient id="body" x1="0.1" y1="0.04" x2="0.9" y2="0.95"><stop stop-color="#ff9bbb"/><stop offset="0.45" stop-color="#ff4c84"/><stop offset="1" stop-color="#df285d"/></linearGradient>
+    <linearGradient id="symbol" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffdf2"/><stop offset="1" stop-color="#ffc9d7"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffdf35"/><stop offset="1" stop-color="#ffad13"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="9" stdDeviation="8" flood-color="#e63a70" flood-opacity=".22"/></filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+  <rect x="10" y="10" width="236" height="236" rx="36" fill="url(#tile)"/>
+  <ellipse cx="128" cy="211" rx="72" ry="13" fill="#e94a76" opacity=".13" filter="url(#soft)"/>
+  <g filter="url(#shadow)" transform="rotate(6 128 128)">
+    <rect x="53" y="57" width="150" height="143" rx="37" fill="#f8b4c5" opacity=".8" transform="translate(5 8)"/>
+    <rect x="49" y="49" width="150" height="143" rx="37" fill="url(#body)" stroke="#ffd5df" stroke-width="4"/>
+    <path d="M66 75c20-24 75-28 109-7" fill="none" stroke="#fff8fb" stroke-width="10" stroke-linecap="round" opacity=".6"/>
+    <circle cx="105" cy="105" r="22" fill="url(#symbol)"/>
+    <circle cx="153" cy="105" r="18" fill="url(#symbol)" opacity=".88"/>
+    <path d="M73 159c3-28 22-43 49-43s47 15 51 43" fill="url(#symbol)"/>
+    <path d="M130 159c2-22 16-35 35-35 18 0 31 12 35 35" fill="#ffdce4" opacity=".92"/>
+    <circle cx="201" cy="162" r="35" fill="url(#accent)" stroke="#fff3a0" stroke-width="4"/>
+    <path d="M201 146v32M185 162h32" stroke="#fffdf0" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="78" cy="72" r="11" fill="#fff" opacity=".4"/>
+  </g>
+</svg>

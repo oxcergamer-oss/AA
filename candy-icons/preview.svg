@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="320" viewBox="0 0 840 320">
+  <rect width="840" height="320" rx="32" fill="#fffdfd"/>
+  <image href="today-task.svg" x="20" y="20" width="280" height="280"/>
+  <image href="invite-collaborator.svg" x="280" y="20" width="280" height="280"/>
+  <image href="energy-crystal.svg" x="540" y="20" width="280" height="280"/>
+</svg>

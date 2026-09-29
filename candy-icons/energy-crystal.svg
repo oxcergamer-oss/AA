@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef3ff"/><stop offset="1" stop-color="#dce8ff"/></linearGradient>
+    <linearGradient id="body" x1="0.08" y1="0.03" x2="0.92" y2="0.95"><stop stop-color="#79d9ff"/><stop offset="0.35" stop-color="#5b8bff"/><stop offset="0.72" stop-color="#a83bff"/><stop offset="1" stop-color="#6c20d8"/></linearGradient>
+    <linearGradient id="crystal" x1="0.1" y1="0" x2="0.9" y2="1"><stop stop-color="#ffe895"/><stop offset="0.42" stop-color="#ffbb2e"/><stop offset="1" stop-color="#f47620"/></linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffef0"/><stop offset="1" stop-color="#ffc7f5"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="9" stdDeviation="8" flood-color="#4f46d8" flood-opacity=".24"/></filter>
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="8"/></filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+  <rect x="10" y="10" width="236" height="236" rx="36" fill="url(#tile)" stroke="#bfd4ff" stroke-width="3"/>
+  <ellipse cx="130" cy="211" rx="73" ry="13" fill="#5867d6" opacity=".15" filter="url(#soft)"/>
+  <g filter="url(#shadow)" transform="rotate(-5 128 128)">
+    <rect x="48" y="54" width="158" height="143" rx="34" fill="#c6d5ff" opacity=".65" transform="translate(5 8)"/>
+    <rect x="44" y="46" width="158" height="143" rx="34" fill="url(#body)" stroke="#d9e7ff" stroke-width="4"/>
+    <path d="M61 72c27-29 87-28 118-6" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".45"/>
+    <path d="M128 78l24 35-24 49-24-49z" fill="url(#crystal)" stroke="#fff3ae" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M128 78v84M104 113h48" stroke="#fff8bf" stroke-width="4" opacity=".9"/>
+    <path d="M128 88l-10 25h20z" fill="#fff8d5" opacity=".7"/>
+    <circle cx="128" cy="124" r="22" fill="#fff6b7" opacity=".38" filter="url(#glow)"/>
+    <circle cx="128" cy="124" r="10" fill="url(#core)"/>
+    <path d="M77 146l-12 17 18 15 12-20z" fill="url(#crystal)" stroke="#fff3ae" stroke-width="3"/>
+    <path d="M179 145l-12 18 18 14 12-20z" fill="url(#crystal)" stroke="#fff3ae" stroke-width="3"/>
+    <path d="M73 81l6-13 6 13 13 6-13 6-6 13-6-13-13-6z" fill="#fff4a0"/>
+    <path d="M183 93l5-11 5 11 11 5-11 5-5 11-5-11-11-5z" fill="#fff4a0" opacity=".9"/>
+    <circle cx="70" cy="67" r="10" fill="#fff" opacity=".32"/>
+  </g>
+</svg>
