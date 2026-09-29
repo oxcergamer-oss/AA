@@ -1,0 +1,63 @@
+name: 运营活动 UI 设计工作流
+version: 1.0.0
+language: zh-CN
+roles:
+  - id: design-director
+    name: 设计总监 Agent
+    prompt: agents/01-design-director.md
+  - id: interaction-designer
+    name: 交互设计师 Agent
+    prompt: agents/02-interaction-designer.md
+  - id: visual-designer
+    name: 视觉设计师 Agent
+    prompt: agents/03-visual-designer.md
+  - id: color-system-designer
+    name: 色彩系统设计师 Agent
+    prompt: agents/04-color-system-designer.md
+  - id: design-system-designer
+    name: 规范设计师 Agent
+    prompt: agents/05-design-system-designer.md
+  - id: production-designer
+    name: 还原师 Agent
+    prompt: agents/06-production-designer.md
+  - id: motion-designer
+    name: 动效设计师 Agent
+    prompt: agents/07-motion-designer.md
+
+stages:
+  - id: G0
+    name: 目标定义
+    owner: design-director
+    outputs: [activity-brief, scope, metrics, risk-list]
+  - id: G1
+    name: 体验架构
+    owner: interaction-designer
+    depends_on: [G0]
+    outputs: [user-flow, sitemap, wireframe, state-table, analytics-notes]
+  - id: G2
+    name: 视觉与色彩
+    owner: visual-designer
+    collaborators: [color-system-designer]
+    depends_on: [G1]
+    outputs: [visual-direction, color-system, hi-fi-screens]
+  - id: G3
+    name: 规范与动效
+    owner: design-system-designer
+    collaborators: [motion-designer]
+    depends_on: [G2]
+    outputs: [tokens, components, naming-rules, motion-spec]
+  - id: G4
+    name: 多端还原
+    owner: production-designer
+    depends_on: [G3]
+    outputs: [assets, annotations, adaptation-matrix, fidelity-report]
+  - id: G5
+    name: 联合验收
+    owner: design-director
+    depends_on: [G4]
+    outputs: [acceptance-record, launch-decision, follow-up-list]
+
+severity:
+  P0: 阻断核心流程或上线
+  P1: 明显影响转化、可用性或品牌表现
+  P2: 局部优化，不阻断上线

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="375" height="812" viewBox="0 0 375 812">
+<defs><style>.t{font-family:'Microsoft YaHei',sans-serif;fill:#222}.w{fill:#fff;font-family:'Microsoft YaHei',sans-serif}.s{font-size:13px}.m{font-size:16px}.l{font-size:22px;font-weight:700}.card{fill:#fff;stroke:#c8c8c8;stroke-width:1}.btn{fill:#333}.muted{fill:#777;font-family:'Microsoft YaHei',sans-serif;font-size:12px}</style></defs>
+<rect width="375" height="812" fill="#999"/><rect x="0" y="0" width="375" height="812" fill="#222" opacity=".38"/><text x="18" y="20" class="w s">9:41</text><text x="357" y="20" class="w s" text-anchor="end">5G  ▰</text>
+<rect x="15" y="116" width="345" height="551" rx="28" fill="#fff"/>
+<rect x="15" y="116" width="345" height="70" rx="28" fill="#fff5ee"/><rect x="166" y="132" width="44" height="5" rx="3" fill="#a9adb8"/><text x="187" y="169" class="t l" text-anchor="middle">每日能量任务</text><text x="187" y="207" class="muted" text-anchor="middle">今日已完成 2 / 4　当前能量 86</text>
+<rect x="38" y="226" width="299" height="70" rx="16" class="card"/><text x="56" y="253" class="t m">扫描星球区域</text><text x="56" y="278" class="muted">完成 1 次探索　奖励：能量 +10</text><rect x="258" y="245" width="62" height="32" rx="16" class="btn"/><text x="289" y="266" class="w s" text-anchor="middle">立即执行</text>
+<rect x="38" y="310" width="299" height="70" rx="16" class="card"/><text x="56" y="337" class="t m">邀请协作者</text><text x="56" y="362" class="muted">当前 1 / 2　奖励：能量晶 ×1</text><rect x="258" y="329" width="62" height="32" rx="16" class="btn"/><text x="289" y="350" class="w s" text-anchor="middle">去邀请</text>
+<rect x="38" y="394" width="299" height="70" rx="16" fill="#eee" stroke="#999"/><text x="56" y="421" class="t m">补充能源</text><text x="56" y="446" class="muted">已完成　奖励待领取</text><rect x="258" y="413" width="62" height="32" rx="16" class="btn"/><text x="289" y="434" class="w s" text-anchor="middle">领取</text>
+<rect x="38" y="478" width="299" height="70" rx="16" class="card"/><text x="56" y="505" class="t m">点亮一处星域</text><text x="56" y="530" class="muted">完成阶段目标　奖励：能量晶 ×2</text><text x="319" y="519" class="muted" text-anchor="end">未解锁</text>
+<text x="187" y="594" class="muted" text-anchor="middle">任务每日 24:00 刷新</text><text x="187" y="622" class="t s" text-anchor="middle">任务规则 / 奖励发放说明</text>
+</svg>
